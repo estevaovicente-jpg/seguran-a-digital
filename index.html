@@ -7,6 +7,29 @@
     <link rel="stylesheet" href="estilo.css"> <!-- Liga o HTML ao arquivo CSS -->
 </head>
 <body> <!-- Area visivel da pagina -->
+<main class="caixa">
+    <h1>Gerador de Senha Automatico</h1>
+    <input type="text" placeholder="Senha Segura" readonly>
+    <input type="nummber" id="quantidade" value="8" min="1">
+    </label>
+    <input type="checkbox" id="minusculas" checked>
+    Letras minusculas
+    </label>
+    <input type="checkbox" id="maiusculas" checked>
+    Letras maiusculas
+    </label>
 
+    </label>
+    <input type="checkbox" id="numeros" checked>
+    </label>
+
+    </label>
+    <input type="checkbox" id="especiais" checked>
+    Caracteres especiais
+    </label>
+    <button onclick="criarSenha()">CRIAR SENHA </button>
+    <button onclick="limparSenha()">LIMPAR </button>
+
+</main>
 </body>
 </html>
